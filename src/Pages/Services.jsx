@@ -18,33 +18,40 @@ const allServices = [
     icon: <Smartphone className="text-black w-6 h-6" />,
   },
   {
-    title: 'Account Balance Sheet Converter',
-    description: 'We convert your account balance sheets to XML and help you easily migrate your data.',
-    category: 'Finance',
-    path: '/account-balance-sheet-converter',
-    icon: <FileText className="text-black w-6 h-6" />,
+    title: 'SEO Optimization',
+    description: 'We optimize your website for search engines to improve visibility and rank higher in search results.',
+    category: ['Web', 'Mobile'],
+    path: '/seo-optimization',
+    icon: <FileText className="w-6 h-6 text-black" />,
   },
-  {
-    title: 'Portfolio Website',
-    description: 'Showcase your work beautifully.',
-    category: 'Web',
-    path: '/portfolio-website',
-    icon: <Code2 className="text-black w-6 h-6" />,
-  },
-  {
-    title: 'UI/UX Design',
-    description: 'Create stunning user interfaces.',
-    category: 'Design',
-    path: '/ui-ux-design',
-    icon: <Palette className="text-black w-6 h-6" />,
-  },
-  {
-    title: 'SEO Services',
-    description: 'Improve your search engine ranking.',
-    category: 'Marketing',
-    path: '/seo-services',
-    icon: <TrendingUp className="text-black w-6 h-6" />,
-  },
+  // {
+  //   title: 'Account Balance Sheet Converter',
+  //   description: 'We convert your account balance sheets to XML and help you easily migrate your data.',
+  //   category: 'Finance',
+  //   path: '/account-balance-sheet-converter',
+  //   icon: <FileText className="text-black w-6 h-6" />,
+  // },
+  // {
+  //   title: 'Portfolio Website',
+  //   description: 'Showcase your work beautifully.',
+  //   category: 'Web',
+  //   path: '/portfolio-website',
+  //   icon: <Code2 className="text-black w-6 h-6" />,
+  // },
+  // {
+  //   title: 'UI/UX Design',
+  //   description: 'Create stunning user interfaces.',
+  //   category: 'Design',
+  //   path: '/ui-ux-design',
+  //   icon: <Palette className="text-black w-6 h-6" />,
+  // },
+  // {
+  //   title: 'SEO Services',
+  //   description: 'Improve your search engine ranking.',
+  //   category: 'Marketing',
+  //   path: '/seo-services',
+  //   icon: <TrendingUp className="text-black w-6 h-6" />,
+  // },
 ];
 
 const Services = () => {
@@ -65,7 +72,8 @@ const Services = () => {
   );
 
   return (
-    <div className="bg-white min-h-screen px-6 py-12 max-w-7xl mx-auto">
+    <div className="bg-gradient-to-b from-[#FFF4EB] to-white  min-h-screen px-6 py-12 max-w-7xl mx-auto">
+      
       <h1
         className={`text-4xl font-bold text-center mb-10 transition-opacity duration-1000 ${show ? 'opacity-100' : 'opacity-0'}`}
       >

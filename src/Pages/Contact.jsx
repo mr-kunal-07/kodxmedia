@@ -8,7 +8,7 @@ const Contact = () => {
     }, []);
 
     return (
-        <div className="min-h-screen bg-white flex flex-col items-center justify-center px-6 py-12">
+        <div className="min-h-screen bg-gradient-to-b from-[#FFF4EB] to-white  flex flex-col items-center justify-center px-6 py-12">
             <h2
                 className="text-4xl font-bold text-center mb-8"
                 data-aos="fade-up"

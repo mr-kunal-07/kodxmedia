@@ -16,9 +16,9 @@ const services = [
         icon: <Smartphone className="w-6 h-6 text-black" />,
     },
     {
-        title: 'Account Balance Sheet Converter',
-        description: 'We convert your account balance sheets to XML and help you easily migrate your data.',
-        path: '/account-balance-sheet-converter',
+        title: 'SEO Optimization',
+        description: 'We optimize your website for search engines to improve visibility and rank higher in search results.',
+        path: '/seo-optimization',
         icon: <FileText className="w-6 h-6 text-black" />,
     },
 ];
